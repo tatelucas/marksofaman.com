@@ -2,22 +2,52 @@
 layout: default
 ---
 
-<div class="home">
+<section class="section-book">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-8 col-sm-offset-2">
+        <div class="row">
+          <div class="col-sm-6 text-xs-center">
+            <div class="vertical-center">
+              <h2>Get the e-book at</h2>
+              {% include icon-amazon-logo.svg.html %}
+              <p class="text-muted">
+                For a limited time you can download this book for <strong>FREE</strong>. Take advantage before the book goes on sale for $8.99.
+              </p>
+              <a href="#" class="btn btn-primary-outline btn-lg">Download</a>
+            </div>
+          </div>
+          <div class="col-sm-5 col-sm-offset-1">
+            <img src="images/book.jpg" class="img-fluid" alt="5 Marks of a Man Book Cover" >
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
-  <h1 class="page-heading">Posts</h1>
+<section class="section-author dark-bg img-background">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="row">
+          <div class="col-sm-5 col-sm-offset-7">
+              <h1>AUTHOR</h1>
+              <p>
+                Brian Tome is the Senior Pastor of Crossroads, the ninth largest and fastest growing church in the United States. Through Crossroads he also leads MAN CAMP, an initiative to help men reclaim the code of manhood and become committed brothers, husbands, and fathers.
+              </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+<section class="section-reviews dark-bg img-background">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+      </div>
+    </div>
+  </div>
+</section>

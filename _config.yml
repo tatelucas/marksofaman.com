@@ -6,16 +6,15 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
+title: 5 Marks of a Man
+email: bzmiller82@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  What really separates a man from a boy? Is manhood just marked by age, or is there something else that really turns a male into a man?
+
+  Brian Tome believes there are five marks that every authentic man in history has displayed, and pursuing them can be life-altering. It's a simple, ancient code that all fathers, sons, and husbands need to know, but is rarely taught. While the world is full of fluffy and confusing ideas about how men should behave, Tome uses his practical experience in leading men to expose the clear, simple truths about what makes men most effective.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "http://marksofaman.com" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
+exclude: ['node_modules', 'package.json', 'gulpfile.js', 'README.md' ]

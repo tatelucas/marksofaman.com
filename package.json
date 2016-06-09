@@ -1,0 +1,23 @@
+{
+  "name": "marksofaman",
+  "version": "1.0.0",
+  "description": "A promotional website for the book 5 Marks of a Man by Brian Tome",
+  "main": "index.html",
+  "devDependencies": {
+    "autoprefixer": "^6.3.6",
+    "bootstrap": "^4.0.0-alpha.2",
+    "browser-sync": "^2.12.8",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-postcss": "^6.1.1",
+    "gulp-ruby-sass": "^2.0.6",
+    "gulp-sass": "^2.3.1",
+    "gulp-uglify": "^1.5.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Brian Miller",
+  "license": "ISC"
+}
