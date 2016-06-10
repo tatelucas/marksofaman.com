@@ -24,6 +24,24 @@ svg {
 .text-muted {
   color: $gray-lighter;
 }
+.blockquote  {
+  border-left: 0.25rem solid $brand-primary;
+  margin-bottom: 0;
+  .quote {
+    font-family: $font-family-serif;
+    font-style: italic;
+    font-size: 1.5rem;
+    color: $brand-gray;
+  }
+  cite {
+    color: $body-color;
+    font-style: normal;
+    font-weight: 600;
+  }
+}
+.blockquote-footer::before {
+  display: none;
+}
 /***************************************************************************************
 * Layout
 ***************************************************************************************/
@@ -52,3 +70,6 @@ section {
 /***************************************************************************************
 * General
 ***************************************************************************************/
+.form-control {
+  padding: 0.9rem 0.75rem;
+}

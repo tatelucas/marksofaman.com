@@ -1,0 +1,18 @@
+.carousel-control.left, .carousel-control.right {
+  background: none;
+}
+.carousel-item {
+  min-height: 500px;
+}
+.carousel-indicators {
+  bottom: -43px;
+  li {
+    height: 20px;
+    width: 20px;
+  }
+  .active {
+    width: 20px;
+    height: 20px;
+    margin: 1px;
+  }
+}

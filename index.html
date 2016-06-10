@@ -1,5 +1,23 @@
 ---
 layout: default
+
+reviews:
+  - name: Kirk Perry
+    image: images/quote-kirk-perry.png
+    position: President, Brand Solutions, Google 
+    quote: Brian nails the concepts behind real manhood in his unique voice. I started reading it and couldn't put it down. In my own meandering journey to manhood, no one ever taught these concepts to me. I had to fall into them. Brian is able to eloquently lay them out and give me a lighthouse to run toward. The importance of having guy friends that truly love you and hold you accountable is important for all of us to remember and practice. I have four kids - two sons - who I want to build in to using the 5 marks of manhood. They will be better husbands, fathers, friends and kingdom builders because of it.
+    active: active
+  - name: Dave Travis
+    image: images/quote-dave-travis.png
+    position: Chief Encouragement Officer 
+    about: Executive Officer - Leadership Network
+    quote: Brian addresses one of the great questions of our time&#x0003A; How do we forge great men for today? Great artisans can use a forge, hammer, metals and other items to great things of great strength, usefulness and yes, even beauty. Five Marks has some of the tools to help you forge great men through your ministry. So put the tools in your hand to work by reading and applying.
+  - name: Brad Lomenick
+    image: images/quote-brad-lomenick.png
+    position: Former president of Catalyst 
+    about: Author, The Catalyst Leader and H3 Leadership
+    quote: Calling all men- I’m convinced this book will help you be a man- a true man. Ultimately a true man of God. Brian Tome is a pastor and leader who has a passion for helping lift the standard of what true manhood is, should, and can be, so grab a copy, get your highlighter out, jump in, and man up!
+
 ---
 
 <section class="section-book">
@@ -43,10 +61,91 @@ layout: default
   </div>
 </section>
 
-<section class="section-reviews dark-bg img-background">
+<section class="section-reviews">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-12">
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="6000">
+          <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner" role="listbox">
+            {% for item in page.reviews %}
+              <div class="carousel-item {{ item.active }}">
+                <div class="row">
+                  <div class="col-sm-8 col-sm-offset-2">
+                    <blockquote class="blockquote">
+                      <p class="m-b-1 quote">
+                        &#x00022;{{ item.quote }}&#x00022;
+                      </p>
+                      <footer class="blockquote-footer text-xs-right">
+                        <div class="row">
+                          <div class="col-sm-10">
+                            <cite title="Source Title">{{ item.name }}</cite><br>
+                              {{ item.position }} <br>
+                              {{ item.about }}
+                          </div>
+                          <div class="col-sm-2">
+                            <img class="img-fluid" src="{{ item.image }}" alt="Brad Lomenick Picture" >
+                          </div>
+                        </div>
+                      </footer>
+                    </blockquote>
+                  </div>
+                </div>
+              </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-video dark-bg p-t-0 p-b-0">
+  <div class="container-fluid p-l-0 p-r-0">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/C8mUvZrLNi8?rel=0" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-newsletter">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-8 col-sm-offset-2 text-xs-center">
+        <h1>JOIN THE CONVERSATION</h1>
+        <p class="text-muted">Brian will be sending regular updates around the topic of men. Don’t miss out on relevent news, book updates, and events. Sign up today for the mailing list.</p>
+
+        <form class="form-inline validate" action="//crossroads.us12.list-manage.com/subscribe/post?u=921c854591514115241d96317&amp;id=75679b01b9" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" novalidate>
+          <div class="form-group">
+            <label class="sr-only" for="mce-FNAME">First Name </label>
+            <input type="text" class="form-control" name="FNAME" id="mce-FNAME" placeholder="First Name">
+          </div>
+          <div class="form-group">
+            <label class="sr-only" for="mce-EMAIL">Email Address </label>
+            <input type="email" class="form-control" name="EMAIL" id="mce-EMAIL" placeholder="Email Address">
+          </div>
+          <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_921c854591514115241d96317_75679b01b9" tabindex="-1" value=""></div>
+          <button type="submit" class="btn btn-primary" name="subscribe" id="mc-embedded-subscribe" >Subscribe</button>
+        </form>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-video dark-bg">
   <div class="container">
     <div class="row">
       <div class="col-sm-12">
+
       </div>
     </div>
   </div>
