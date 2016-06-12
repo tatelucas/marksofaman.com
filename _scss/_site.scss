@@ -66,10 +66,18 @@ section {
   background-image: url(../images/author-bg.jpg);
   min-height: 603px;
 }
-
+.section-promo {
+  background-image: url(../images/promo-bg.jpg);
+  min-height: 503px;
+}
 /***************************************************************************************
 * General
 ***************************************************************************************/
 .form-control {
-  padding: 0.9rem 0.75rem;
+  padding: 0.875rem 0.75rem;
+}
+.section-social {
+  a {
+    color: $brand-white;
+  }
 }
