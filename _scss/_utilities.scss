@@ -2,27 +2,30 @@
   color: $brand-gray; //#4A4A4A;
 }
 
-.vertical-center {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  width: 100%;
+@include media-breakpoint-up(sm) {
+  .vertical-center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+  }
+  .vertical-20 {
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    transform: translate(-50%, -20%);
+    width: 100%;
+  }
+  .vertical-30 {
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -30%);
+    width: 100%;
+  }
 }
-.vertical-20 {
-  position: absolute;
-  left: 50%;
-  top: 20%;
-  transform: translate(-50%, -20%);
-  width: 100%;
-}
-.vertical-30 {
-  position: absolute;
-  left: 50%;
-  top: 30%;
-  transform: translate(-50%, -30%);
-  width: 100%;
-}
+
 .img-background {
   background-size: cover;
   background-position: 50% 50%;

@@ -1,53 +1,13 @@
 /***************************************************************************************
-* Typography
-***************************************************************************************/
-p {
-  font-weight: 100;
-  margin-bottom: $spacer/2;
-}
-::selection {
-  background: rgba( $gray-dark, .9 );
-  color: $brand-white;
-}
-.brand-font {
-  font-family: $brand-font-family;
-  font-weight: 900;
-  margin-bottom: 2rem;
-}
-.btn {
-  opacity: .9;
-  border-width: 4px;
-}
-svg {
-  width: 100%;
-}
-.text-muted {
-  color: $gray-lighter;
-}
-.blockquote  {
-  border-left: 0.25rem solid $brand-primary;
-  margin-bottom: 0;
-  .quote {
-    font-family: $font-family-serif;
-    font-style: italic;
-    font-size: 1.5rem;
-    color: $brand-gray;
-  }
-  cite {
-    color: $body-color;
-    font-style: normal;
-    font-weight: 600;
-  }
-}
-.blockquote-footer::before {
-  display: none;
-}
-/***************************************************************************************
 * Layout
 ***************************************************************************************/
-section {
-  padding-top: 100px;
-  padding-bottom: 100px;
+section, header {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  @include media-breakpoint-up(sm) {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
 }
 
 .dark-bg {
@@ -57,18 +17,29 @@ section {
 
 .site-header {
   background-image: url(../images/header-bg.jpg);
-  min-height: 783px;
+  min-height: 95vh;
   .header-lead {
     color: $gray-light;
   }
 }
 .section-author {
-  background-image: url(../images/author-bg.jpg);
-  min-height: 603px;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, .5) 1%, rgba(0, 0, 0, .75) 96%), url(../images/author-bg.jpg);
+  background-position: 12% 50%;
+  padding-top: 180px;
+  @include media-breakpoint-up(sm) {
+    padding-top: 100px;
+    min-height: 603px;
+    background-position: 50% 50%;
+    background-image: url(../images/author-bg.jpg);
+  }
 }
 .section-promo {
   background-image: url(../images/promo-bg.jpg);
+  background-position: 70% 50%;
   min-height: 503px;
+  @include media-breakpoint-up(sm) {
+    background-position: 50% 50%;
+  }
 }
 /***************************************************************************************
 * General
@@ -76,8 +47,33 @@ section {
 .form-control {
   padding: 0.875rem 0.75rem;
 }
+.form-group {
+  margin-bottom: ($spacer / 2);
+}
 .section-social {
   a {
     color: $brand-white;
+  }
+}
+.header-icon {
+  margin-bottom: ($spacer / 2);
+}
+.book-sale {
+  @include media-breakpoint-up(md) {
+    margin-top: ($spacer * 1.5);
+  }
+}
+
+.btn-block-mobile {
+  @include media-breakpoint-down(sm) {
+    //display: block;
+    width: 100%;
+  }
+}
+.btn-lg, .btn {
+  padding: 0.675rem 2rem;
+  @include media-breakpoint-up(sm) {
+    padding: 0.675rem 2rem;
+    display: inline-block;
   }
 }

@@ -25,18 +25,21 @@ reviews:
     <div class="row">
       <div class="col-sm-8 col-sm-offset-2">
         <div class="row">
-          <div class="col-sm-6 text-xs-center">
-            <div class="vertical-center">
+          <div class="hidden-md-up col-xs-8 col-xs-offset-2 col-sm-5 col-sm-offset-1 wow fadeInRight">
+            <img src="images/book-cover.jpg" class="img-fluid m-b-1" alt="5 Marks of a Man Book Cover" >
+          </div>
+          <div class="col-sm-6 m-b-1 text-xs-center wow fadeInLeft">
+            <div class="book-sale">
               <h2>Get the e-book at</h2>
               {% include icon-amazon-logo.svg.html %}
               <p class="text-muted">
-                For a limited time you can download this book for <strong>FREE</strong>. Take advantage before the book goes on sale for $8.99.
+                For a limited time you can download this book for <strong>FREE</strong>. Take advantage before the book goes on sale for $4.99.
               </p>
-              <a href="#" class="btn btn-primary-outline btn-lg">Download</a>
+              <a href="#" class="btn btn-block-mobile btn-primary-outline btn-lg">Download</a>
             </div>
           </div>
-          <div class="col-sm-5 col-sm-offset-1">
-            <img src="images/book.jpg" class="img-fluid" alt="5 Marks of a Man Book Cover" >
+          <div class="hidden-sm-down col-xs-8 col-xs-offset-2 col-sm-5 col-sm-offset-1 wow fadeInRight">
+            <img src="images/book-cover.jpg" class="img-fluid" alt="5 Marks of a Man Book Cover" >
           </div>
         </div>
       </div>
@@ -44,14 +47,15 @@ reviews:
   </div>
 </section>
 
+
 <section class="section-author dark-bg img-background">
   <div class="container">
     <div class="row">
       <div class="col-sm-12">
         <div class="row">
           <div class="col-sm-5 col-sm-offset-7">
-              <h1>AUTHOR</h1>
-              <p>
+              <h1 class="wow fadeInUp">AUTHOR</h1>
+              <p class="wow fadeInUp">
                 Brian Tome is the Senior Pastor of Crossroads, the ninth largest and fastest growing church in the United States. Through Crossroads he also leads MAN CAMP, an initiative to help men reclaim the code of manhood and become committed brothers, husbands, and fathers.
               </p>
           </div>
@@ -61,11 +65,12 @@ reviews:
   </div>
 </section>
 
+<!--
 <section class="section-reviews">
   <div class="container-fluid">
     <div class="row">
       <div class="col-sm-12">
-        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="6000">
+        <div id="carousel-example-generic" class="carousel slide wow fadeInRight" data-ride="carousel" data-interval="6000">
           <ol class="carousel-indicators">
             <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
             <li data-target="#carousel-example-generic" data-slide-to="1"></li>
@@ -103,16 +108,11 @@ reviews:
     </div>
   </div>
 </section>
+-->
 
 <section class="section-video dark-bg p-t-0 p-b-0">
-  <div class="container-fluid p-l-0 p-r-0">
-    <div class="row">
-      <div class="col-sm-12">
-        <div class="embed-responsive embed-responsive-16by9">
-          <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/C8mUvZrLNi8?rel=0" frameborder="0" allowfullscreen></iframe>
-        </div>
-      </div>
-    </div>
+  <div class="embed-responsive embed-responsive-16by9">
+    <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/C8mUvZrLNi8?rel=0" frameborder="0" allowfullscreen></iframe>
   </div>
 </section>
 
@@ -120,10 +120,10 @@ reviews:
   <div class="container">
     <div class="row">
       <div class="col-sm-8 col-sm-offset-2 text-xs-center">
-        <h1>JOIN THE CONVERSATION</h1>
-        <p class="text-muted">Brian will be sending regular updates around the topic of men. Don’t miss out on relevent news, book updates, and events. Sign up today for the mailing list.</p>
+        <h1 class="wow fadeInUp">JOIN THE CONVERSATION</h1>
+        <p class="text-muted wow fadeInUp">Brian will be sending regular updates around the topic of men. Don’t miss out on relevent news, book updates, and events. Sign up today for the mailing list.</p>
 
-        <form class="form-inline validate" action="//crossroads.us12.list-manage.com/subscribe/post?u=921c854591514115241d96317&amp;id=75679b01b9" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" novalidate>
+        <form class="form-inline validate wow fadeInUp" action="//crossroads.us12.list-manage.com/subscribe/post?u=921c854591514115241d96317&amp;id=75679b01b9" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" novalidate>
           <div class="form-group">
             <label class="sr-only" for="mce-FNAME">First Name </label>
             <input type="text" class="form-control" name="FNAME" id="mce-FNAME" placeholder="First Name">
@@ -133,7 +133,7 @@ reviews:
             <input type="email" class="form-control" name="EMAIL" id="mce-EMAIL" placeholder="Email Address">
           </div>
           <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_921c854591514115241d96317_75679b01b9" tabindex="-1" value=""></div>
-          <button type="submit" class="btn btn-primary" name="subscribe" id="mc-embedded-subscribe" >Subscribe</button>
+          <button type="submit" class="btn btn-block-mobile btn-primary" name="subscribe" id="mc-embedded-subscribe" >Subscribe</button>
         </form>
 
       </div>
@@ -147,14 +147,14 @@ reviews:
       <div class="col-sm-10 col-sm-offset-1 text-xs-center">
         <p class="m-b-2">FOLLOW BRIAN TOME</p>
         <div class="row">
-          <div class="col-sm-6">
+          <div class="col-sm-6 m-b-1 wow fadeInLeft">
             <a href="https://twitter.com/briantome?lang=en" title="Follow Brian Tome on Twitter">
               {% include icon-twitter-logo.svg.html %}
               <br>
               <h1>TWITTER</h1>
             </a>
           </div>
-          <div class="col-sm-6">
+          <div class="col-sm-6 m-b-1 wow fadeInRight">
             <a href="https://www.facebook.com/briantomebooks/" title="Follow Brian Tome on Facebook">
               {% include icon-facebook-logo.svg.html %}
               <br>
@@ -167,7 +167,7 @@ reviews:
   </div>
 </section>
 
-<section class="section-promo img-background">
+<section class="section-promo img-background wow fadeIn" data-wow-offset="300">
   <div class="container">
     <div class="row">
       <div class="col-sm-10 col-sm-offset-1 text-xs-center">
