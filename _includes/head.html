@@ -30,7 +30,7 @@
   <meta name="msapplication-config" content="/images/browserconfig.xml">
   <meta name="theme-color" content="#ffffff">
 
-  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800,400italic' rel='stylesheet' type='text/css'>
+  <style type="text/css">{% include main.css %}</style>
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" hreflang="en" href="{{ site.baseurl }}" />
@@ -46,6 +46,5 @@
 
   </script>
 
-  <style type="text/css">{% include main.css %}</style>
 
 </head>
