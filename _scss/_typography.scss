@@ -6,11 +6,7 @@
 //$font-size-h6:               1rem !default;
 
 
-h1 {font-size: 2rem;}
 
-@include media-breakpoint-up(sm) {
-  h1 {font-size: $font-size-h1;}
-}
 
 /***************************************************************************************
 * Typography
@@ -18,6 +14,14 @@ h1 {font-size: 2rem;}
 p {
   font-weight: 100;
   margin-bottom: $spacer/2;
+}
+h1 {font-size: 2rem;}
+
+@include media-breakpoint-up(sm) {
+  h1 {font-size: $font-size-h1;}
+}
+mark, .mark {
+  background-color: #ffff98;
 }
 ::selection {
   background: rgba( $gray-dark, .9 );
