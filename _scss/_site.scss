@@ -62,7 +62,10 @@ section, header {
   margin-bottom: ($spacer / 2);
 }
 .book-sale {
-  @include media-breakpoint-up(md) {
+  @include media-breakpoint-up(lg) {
+    margin-top: ($spacer * .75);
+  }
+  @include media-breakpoint-up(xl) {
     margin-top: ($spacer * 1.5);
   }
 }

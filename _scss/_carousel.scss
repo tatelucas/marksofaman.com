@@ -3,7 +3,10 @@
 }
 .carousel-item {
   min-height: 590px;
-  @include media-breakpoint-up(md) {
+  @include media-breakpoint-up(sm) {
+    min-height: 600px;
+  }
+  @include media-breakpoint-up(xl) {
     min-height: 500px;
   }
 }

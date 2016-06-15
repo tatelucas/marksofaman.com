@@ -3836,7 +3836,10 @@ svg circle {
 
 .carousel-item {
   min-height: 590px; }
-  @media (min-width: 768px) {
+  @media (min-width: 544px) {
+    .carousel-item {
+      min-height: 600px; } }
+  @media (min-width: 1200px) {
     .carousel-item {
       min-height: 500px; } }
 
@@ -6278,7 +6281,11 @@ section, header {
 .header-icon {
   margin-bottom: 1.5rem; }
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
+  .book-sale {
+    margin-top: 2.25rem; } }
+
+@media (min-width: 1200px) {
   .book-sale {
     margin-top: 4.5rem; } }
 
