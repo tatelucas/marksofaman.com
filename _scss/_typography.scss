@@ -35,17 +35,22 @@ p {
 svg {
   width: 100%;
 }
-.text-muted {
-  color: $gray-lighter;
-}
 .blockquote  {
   border-left: 0.25rem solid $brand-primary;
   margin-bottom: 0;
+  padding: 1rem 1.5rem;
+  @include media-breakpoint-up(md) {
+    padding: 1.5rem 3rem;
+  }
   .quote {
     font-family: $font-family-serif;
     font-style: italic;
-    font-size: 1.5rem;
+    font-size: 1rem;
     color: $brand-gray;
+    overflow: scroll;
+    @include media-breakpoint-up(md) {
+      font-size: 1.5rem;
+    }
   }
   cite {
     color: $body-color;

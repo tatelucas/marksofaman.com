@@ -283,7 +283,7 @@ p {
 abbr[title],
 abbr[data-original-title] {
   cursor: help;
-  border-bottom: 1px dotted #BFBFBE; }
+  border-bottom: 1px dotted #979797; }
 
 address {
   margin-bottom: 1rem;
@@ -358,7 +358,7 @@ table {
 caption {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
-  color: #BFBFBE;
+  color: #979797;
   text-align: left;
   caption-side: bottom; }
 
@@ -519,13 +519,13 @@ mark,
   padding: 1.5rem 3rem;
   margin-bottom: 3rem;
   font-size: 1.25rem;
-  border-left: 0.25rem solid #979797; }
+  border-left: 0.25rem solid #BFBFBE; }
 
 .blockquote-footer {
   display: block;
   font-size: 80%;
   line-height: 1.5;
-  color: #BFBFBE; }
+  color: #979797; }
   .blockquote-footer::before {
     content: "\2014 \00A0"; }
 
@@ -533,7 +533,7 @@ mark,
   padding-right: 3rem;
   padding-left: 0;
   text-align: right;
-  border-right: 0.25rem solid #979797;
+  border-right: 0.25rem solid #BFBFBE;
   border-left: 0; }
 
 .blockquote-reverse .blockquote-footer::before {
@@ -574,7 +574,7 @@ mark,
 
 .figure-caption {
   font-size: 90%;
-  color: #BFBFBE; }
+  color: #979797; }
 
 .container {
   margin-left: auto;
@@ -1211,12 +1211,12 @@ mark,
     padding: 0.75rem;
     line-height: 1.5;
     vertical-align: top;
-    border-top: 1px solid #979797; }
+    border-top: 1px solid #BFBFBE; }
   .table thead th {
     vertical-align: bottom;
-    border-bottom: 2px solid #979797; }
+    border-bottom: 2px solid #BFBFBE; }
   .table tbody + tbody {
-    border-top: 2px solid #979797; }
+    border-top: 2px solid #BFBFBE; }
   .table .table {
     background-color: #fff; }
 
@@ -1225,10 +1225,10 @@ mark,
   padding: 0.3rem; }
 
 .table-bordered {
-  border: 1px solid #979797; }
+  border: 1px solid #BFBFBE; }
   .table-bordered th,
   .table-bordered td {
-    border: 1px solid #979797; }
+    border: 1px solid #BFBFBE; }
   .table-bordered thead th,
   .table-bordered thead td {
     border-bottom-width: 2px; }
@@ -1312,10 +1312,10 @@ mark,
 
 .thead-default th {
   color: #55595c;
-  background-color: #979797; }
+  background-color: #BFBFBE; }
 
 .table-inverse {
-  color: #979797;
+  color: #BFBFBE;
   background-color: #373a3c; }
   .table-inverse.table-bordered {
     border: 0; }
@@ -1333,11 +1333,11 @@ mark,
 
 .table-reflow th,
 .table-reflow td {
-  border-top: 1px solid #979797;
-  border-left: 1px solid #979797; }
+  border-top: 1px solid #BFBFBE;
+  border-left: 1px solid #BFBFBE; }
   .table-reflow th:last-child,
   .table-reflow td:last-child {
-    border-right: 1px solid #979797; }
+    border-right: 1px solid #BFBFBE; }
 
 .table-reflow thead:last-child tr:last-child th,
 .table-reflow thead:last-child tr:last-child td,
@@ -1345,14 +1345,14 @@ mark,
 .table-reflow tbody:last-child tr:last-child td,
 .table-reflow tfoot:last-child tr:last-child th,
 .table-reflow tfoot:last-child tr:last-child td {
-  border-bottom: 1px solid #979797; }
+  border-bottom: 1px solid #BFBFBE; }
 
 .table-reflow tr {
   float: left; }
   .table-reflow tr th,
   .table-reflow tr td {
     display: block !important;
-    border: 1px solid #979797; }
+    border: 1px solid #BFBFBE; }
 
 .form-control {
   display: block;
@@ -1387,7 +1387,7 @@ mark,
     color: #999;
     opacity: 1; }
   .form-control:disabled, .form-control[readonly] {
-    background-color: #979797;
+    background-color: #BFBFBE;
     opacity: 1; }
   .form-control:disabled {
     cursor: not-allowed; }
@@ -2032,11 +2032,11 @@ fieldset[disabled] a.btn {
       text-decoration: underline;
       background-color: transparent; } }
   .btn-link:disabled:focus {
-    color: #BFBFBE;
+    color: #979797;
     text-decoration: none; }
   @media (hover: hover) {
     .btn-link:disabled:hover {
-      color: #BFBFBE;
+      color: #979797;
       text-decoration: none; } }
 
 .btn-lg, .btn-group-lg > .btn {
@@ -2164,10 +2164,10 @@ input[type="button"].btn-block {
       background-color: #C46D28;
       outline: 0; } }
   .dropdown-item.disabled, .dropdown-item.disabled:focus {
-    color: #BFBFBE; }
+    color: #979797; }
   @media (hover: hover) {
     .dropdown-item.disabled:hover {
-      color: #BFBFBE; } }
+      color: #979797; } }
   .dropdown-item.disabled:focus {
     text-decoration: none;
     cursor: not-allowed;
@@ -2201,7 +2201,7 @@ input[type="button"].btn-block {
   padding: 3px 20px;
   font-size: 0.875rem;
   line-height: 1.5;
-  color: #BFBFBE;
+  color: #979797;
   white-space: nowrap; }
 
 .dropdown-backdrop {
@@ -2384,7 +2384,7 @@ input[type="button"].btn-block {
   line-height: 1;
   color: #55595c;
   text-align: center;
-  background-color: #979797;
+  background-color: #BFBFBE;
   border: 1px solid #ccc; }
   .input-group-addon.form-control-sm,
   .input-group-sm > .input-group-addon,
@@ -2994,7 +2994,7 @@ input[type="button"].btn-block {
     text-indent: -999px;
     cursor: pointer;
     background-color: transparent;
-    border: 1px solid #979797;
+    border: 1px solid #BFBFBE;
     -webkit-border-radius: 10px;
             border-radius: 10px; }
   .carousel-indicators .active {
@@ -3185,7 +3185,7 @@ input[type="button"].btn-block {
   font-style: italic; }
 
 .text-muted {
-  color: #BFBFBE; }
+  color: #979797; }
 
 .text-primary {
   color: #C46D28 !important; }
@@ -3238,7 +3238,7 @@ a.text-danger:focus {
     color: #c9302c; } }
 
 .bg-inverse {
-  color: #979797;
+  color: #BFBFBE;
   background-color: #373a3c; }
 
 .bg-faded {
@@ -3588,17 +3588,22 @@ p {
 svg {
   width: 100%; }
 
-.text-muted {
-  color: #979797; }
-
 .blockquote {
   border-left: 0.25rem solid #C46D28;
-  margin-bottom: 0; }
+  margin-bottom: 0;
+  padding: 1rem 1.5rem; }
+  @media (min-width: 768px) {
+    .blockquote {
+      padding: 1.5rem 3rem; } }
   .blockquote .quote {
     font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
     font-style: italic;
-    font-size: 1.5rem;
-    color: #474747; }
+    font-size: 1rem;
+    color: #474747;
+    overflow: scroll; }
+    @media (min-width: 768px) {
+      .blockquote .quote {
+        font-size: 1.5rem; } }
   .blockquote cite {
     color: #221F1F;
     font-style: normal;
@@ -3830,7 +3835,10 @@ svg circle {
   background: none; }
 
 .carousel-item {
-  min-height: 500px; }
+  min-height: 590px; }
+  @media (min-width: 768px) {
+    .carousel-item {
+      min-height: 500px; } }
 
 .carousel-indicators {
   bottom: -43px; }
@@ -6225,17 +6233,19 @@ section, header {
 .dark-bg {
   background-color: #221F1F;
   color: #F3F2F2; }
+  .dark-bg a {
+    color: #F3F2F2; }
 
 .site-header {
   background-image: url(../images/header-bg.jpg);
   min-height: 95vh; }
   .site-header .header-lead {
-    color: #BFBFBE; }
+    color: #979797; }
 
 .section-author {
-  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(1%, rgba(0, 0, 0, 0.5)), color-stop(96%, rgba(0, 0, 0, 0.75))), url(../images/author-bg.jpg);
-  background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.5) 1%, rgba(0, 0, 0, 0.75) 96%), url(../images/author-bg.jpg);
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5) 1%, rgba(0, 0, 0, 0.75) 96%), url(../images/author-bg.jpg);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(1%, rgba(0, 0, 0, 0.25)), color-stop(56%, rgba(0, 0, 0, 0.75))), url(../images/author-bg.jpg);
+  background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.25) 1%, rgba(0, 0, 0, 0.75) 56%), url(../images/author-bg.jpg);
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.25) 1%, rgba(0, 0, 0, 0.75) 56%), url(../images/author-bg.jpg);
   background-position: 12% 50%;
   padding-top: 180px; }
   @media (min-width: 544px) {
@@ -6272,12 +6282,20 @@ section, header {
   .book-sale {
     margin-top: 4.5rem; } }
 
+.book-vendor {
+  width: 80%;
+  margin: 0 auto; }
+  @media (min-width: 768px) {
+    .book-vendor {
+      width: 100%; } }
+
 @media (max-width: 767px) {
   .btn-block-mobile {
     width: 100%; } }
 
 .btn-lg, .btn-group-lg > .btn, .btn {
-  padding: 0.675rem 2rem; }
+  padding: 0.575rem 2rem;
+  text-transform: uppercase; }
   @media (min-width: 544px) {
     .btn-lg, .btn-group-lg > .btn, .btn {
       padding: 0.675rem 2rem;
