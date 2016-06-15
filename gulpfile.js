@@ -35,9 +35,10 @@ gulp.task('browser-sync', ['styles', 'jekyll-build'], function() {
 gulp.task ('styles', function() {
   return gulp.src('_scss/main.scss')
     .pipe(plumber())
-    .pipe(sass())
+    .pipe(sass({outputStyle: 'compressed'}))
     .pipe(prefix(['last 15 versions', '> 1%', 'ie 8', 'ie 7'], { cascade: true }))
     .pipe(gulp.dest('_site/css'))
+    .pipe(gulp.dest('_includes'))
     .pipe(browserSync.stream())
     .pipe(gulp.dest('css'));
 });
