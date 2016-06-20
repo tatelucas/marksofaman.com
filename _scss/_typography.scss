@@ -51,7 +51,6 @@ svg {
     font-style: italic;
     font-size: 1rem;
     color: $brand-gray;
-    overflow: scroll;
     @include media-breakpoint-up(md) {
       font-size: 1.5rem;
     }
